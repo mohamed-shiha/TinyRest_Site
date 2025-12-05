@@ -11,6 +11,8 @@
         h2 { margin-top: 30px; font-size: 1.2rem; color: #333; }
         p, li { line-height: 1.6; color: #555; margin-bottom: 10px; }
         .update-date { color: #888; font-size: 0.9rem; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .btn-delete { display: inline-block; background-color: #d32f2f; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 10px; }
+        .btn-delete:hover { background-color: #b71c1c; }
     </style>
 </head>
 <body>
@@ -35,25 +37,27 @@
             <li><strong>AI Analysis:</strong> We use <strong>Google Gemini AI</strong> to generate sleep predictions. <em>Note: When requesting predictions, we send only the baby's age (in months) and anonymized sleep logs. We do NOT share your baby's name or your email address with the AI model.</em></li>
         </ul>
 
-        <h2>3. Data Storage & Security</h2>
-        <p>Your data is stored securely on <strong>Google Firebase</strong> servers. We implement industry-standard security measures, including HTTPS encryption in transit and secure database rules to ensure only authorized family members can access your baby's data.</p>
-
-        <h2>4. Your Rights (GDPR)</h2>
-        <p>If you are located in the European Economic Area (EEA), you have the right to:</p>
+        <h2>3. Data Sharing (Third Parties)</h2>
+        <p>We share specific data with third-party processors to function:</p>
         <ul>
-            <li>Access the personal data we hold about you.</li>
-            <li>Correct inaccurate data.</li>
-            <li>Request deletion of your data ("Right to be Forgotten").</li>
-            <li>Export your data.</li>
+            <li><strong>Google Firebase:</strong> For secure data hosting and authentication.</li>
+            <li><strong>Google Gemini API:</strong> For processing sleep patterns (Anonymized data only).</li>
         </ul>
 
+        <h2>4. Your Rights (GDPR)</h2>
+        <p>If you are located in the European Economic Area (EEA), you have the right to access, correct, or delete your personal data.</p>
+
         <h2>5. Account & Data Deletion</h2>
-        <p><strong>In-App Deletion:</strong> You can delete your account and all associated data instantly inside the app by navigating to <em>Settings > Danger Zone > Delete Account</em>.</p>
-        <p><strong>Web Request:</strong> If you have uninstalled the app and wish to delete your account, please email us at <strong>reviewer@tinyrest.ie</strong> with the subject "DELETE ACCOUNT". We will verify your identity and delete your data within 30 days.</p>
+        <p><strong>Option 1: In-App (Instant)</strong><br>
+        Go to <em>Settings > Danger Zone > Delete Account</em>. This instantly removes your data from our servers.</p>
+        
+        <p><strong>Option 2: Web Request (If app is uninstalled)</strong><br>
+        If you have already removed the app, click the button below to request data deletion. We will verify your request and process it within 30 days.</p>
+        
+        <a href="https://forms.gle/qfCVMXA1JM6ckmyh8" target="_blank" class="btn-delete">Request Account Deletion &rarr;</a>
 
         <h2>6. Contact Us</h2>
-        <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-        <p>Email: reviewer@tinyrest.ie<br>Location: Ireland</p>
+        <p>For privacy concerns, contact us at: mohamedshiha89@gmail.com</p>
         
         <div style="margin-top: 50px; text-align: center;">
             <a href="index.html" style="color: #304ffe; text-decoration: none;">&larr; Back to Home</a>
